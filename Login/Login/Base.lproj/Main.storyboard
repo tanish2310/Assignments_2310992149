@@ -60,6 +60,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ForgotUsername:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZo-uJ-cGB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJv-Pc-Wf2">
                                 <rect key="frame" x="251" y="544" width="24" height="14"/>
@@ -86,6 +89,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ForgotPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ruy-1I-DCa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -93,6 +99,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="p41-dA-Y8j"/>
                     <connections>
+                        <outlet property="ForgotPassword" destination="8ra-mt-vBg" id="oOK-ho-Jp4"/>
+                        <outlet property="ForgotUsername" destination="goT-2o-RQF" id="bCe-de-L0a"/>
                         <outlet property="UsernameTextField" destination="efm-Q3-r6A" id="h1v-H8-RXG"/>
                         <segue destination="lXQ-kb-3Bt" kind="show" identifier="LoginPageToLanding" id="QP8-YN-qeE"/>
                     </connections>
@@ -137,7 +145,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="h5F-D7-Iin"/>
+        <segue reference="QP8-YN-qeE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemGray5Color">
