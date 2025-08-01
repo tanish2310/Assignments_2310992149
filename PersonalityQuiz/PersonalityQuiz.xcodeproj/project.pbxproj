@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3269910B2E39172D00159A5F /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBA273A2E2F44E000BB466A /* PersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3269911D2E39172E00159A5F /* Exceptions for "Personality Quiz" folder in "Personality Quiz" target */ = {
+		0EBA274C2E2F44E100BB466A /* Exceptions for "PersonalityQuiz" folder in "PersonalityQuiz" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 3269910A2E39172D00159A5F /* Personality Quiz */;
+			target = 0EBA27392E2F44E000BB466A /* PersonalityQuiz */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3269910D2E39172D00159A5F /* Personality Quiz */ = {
+		0EBA273C2E2F44E000BB466A /* PersonalityQuiz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3269911D2E39172E00159A5F /* Exceptions for "Personality Quiz" folder in "Personality Quiz" target */,
+				0EBA274C2E2F44E100BB466A /* Exceptions for "PersonalityQuiz" folder in "PersonalityQuiz" target */,
 			);
-			path = "Personality Quiz";
+			path = PersonalityQuiz;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		326991082E39172D00159A5F /* Frameworks */ = {
+		0EBA27372E2F44E000BB466A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		326991022E39172D00159A5F = {
+		0EBA27312E2F44E000BB466A = {
 			isa = PBXGroup;
 			children = (
-				3269910D2E39172D00159A5F /* Personality Quiz */,
-				3269910C2E39172D00159A5F /* Products */,
+				0EBA273C2E2F44E000BB466A /* PersonalityQuiz */,
+				0EBA273B2E2F44E000BB466A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3269910C2E39172D00159A5F /* Products */ = {
+		0EBA273B2E2F44E000BB466A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3269910B2E39172D00159A5F /* Personality Quiz.app */,
+				0EBA273A2E2F44E000BB466A /* PersonalityQuiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3269910A2E39172D00159A5F /* Personality Quiz */ = {
+		0EBA27392E2F44E000BB466A /* PersonalityQuiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3269911E2E39172E00159A5F /* Build configuration list for PBXNativeTarget "Personality Quiz" */;
+			buildConfigurationList = 0EBA274D2E2F44E100BB466A /* Build configuration list for PBXNativeTarget "PersonalityQuiz" */;
 			buildPhases = (
-				326991072E39172D00159A5F /* Sources */,
-				326991082E39172D00159A5F /* Frameworks */,
-				326991092E39172D00159A5F /* Resources */,
+				0EBA27362E2F44E000BB466A /* Sources */,
+				0EBA27372E2F44E000BB466A /* Frameworks */,
+				0EBA27382E2F44E000BB466A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3269910D2E39172D00159A5F /* Personality Quiz */,
+				0EBA273C2E2F44E000BB466A /* PersonalityQuiz */,
 			);
-			name = "Personality Quiz";
+			name = PersonalityQuiz;
 			packageProductDependencies = (
 			);
-			productName = "Personality Quiz";
-			productReference = 3269910B2E39172D00159A5F /* Personality Quiz.app */;
+			productName = PersonalityQuiz;
+			productReference = 0EBA273A2E2F44E000BB466A /* PersonalityQuiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		326991032E39172D00159A5F /* Project object */ = {
+		0EBA27322E2F44E000BB466A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					3269910A2E39172D00159A5F = {
+					0EBA27392E2F44E000BB466A = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 326991062E39172D00159A5F /* Build configuration list for PBXProject "Personality Quiz" */;
+			buildConfigurationList = 0EBA27352E2F44E000BB466A /* Build configuration list for PBXProject "PersonalityQuiz" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 326991022E39172D00159A5F;
+			mainGroup = 0EBA27312E2F44E000BB466A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3269910C2E39172D00159A5F /* Products */;
+			productRefGroup = 0EBA273B2E2F44E000BB466A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3269910A2E39172D00159A5F /* Personality Quiz */,
+				0EBA27392E2F44E000BB466A /* PersonalityQuiz */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		326991092E39172D00159A5F /* Resources */ = {
+		0EBA27382E2F44E000BB466A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		326991072E39172D00159A5F /* Sources */ = {
+		0EBA27362E2F44E000BB466A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3269911F2E39172E00159A5F /* Debug */ = {
+		0EBA274E2E2F44E100BB466A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Personality Quiz/Info.plist";
+				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -157,7 +157,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Chitkara.Personality-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hargun.PersonalityQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -165,7 +165,7 @@
 			};
 			name = Debug;
 		};
-		326991202E39172E00159A5F /* Release */ = {
+		0EBA274F2E2F44E100BB466A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -173,7 +173,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Personality Quiz/Info.plist";
+				INFOPLIST_FILE = PersonalityQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -184,7 +184,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Chitkara.Personality-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hargun.PersonalityQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -192,7 +192,7 @@
 			};
 			name = Release;
 		};
-		326991212E39172E00159A5F /* Debug */ = {
+		0EBA27502E2F44E100BB466A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		326991222E39172E00159A5F /* Release */ = {
+		0EBA27512E2F44E100BB466A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		326991062E39172D00159A5F /* Build configuration list for PBXProject "Personality Quiz" */ = {
+		0EBA27352E2F44E000BB466A /* Build configuration list for PBXProject "PersonalityQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				326991212E39172E00159A5F /* Debug */,
-				326991222E39172E00159A5F /* Release */,
+				0EBA27502E2F44E100BB466A /* Debug */,
+				0EBA27512E2F44E100BB466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3269911E2E39172E00159A5F /* Build configuration list for PBXNativeTarget "Personality Quiz" */ = {
+		0EBA274D2E2F44E100BB466A /* Build configuration list for PBXNativeTarget "PersonalityQuiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3269911F2E39172E00159A5F /* Debug */,
-				326991202E39172E00159A5F /* Release */,
+				0EBA274E2E2F44E100BB466A /* Debug */,
+				0EBA274F2E2F44E100BB466A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 326991032E39172D00159A5F /* Project object */;
+	rootObject = 0EBA27322E2F44E000BB466A /* Project object */;
 }

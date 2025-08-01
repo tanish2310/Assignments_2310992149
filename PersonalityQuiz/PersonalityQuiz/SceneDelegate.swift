@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Personality Quiz
+//  PersonalityQuiz
 //
-//  Created by Tanish on 29/07/25.
+//  Created by Tanish Wadhwa on 27/07/25.
 //
 
 import UIKit
