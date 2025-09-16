@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wY2-SN-rkr">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Furniture-->
+        <scene sceneID="TbO-84-fTk">
+            <objects>
+                <tableViewController id="abZ-GM-Oyz" customClass="FurnitureTableViewController" customModule="HomeFurniture" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="XRj-jE-JPy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FurnitureCell" textLabel="FPn-sU-d6Q" style="IBUITableViewCellStyleDefault" id="6mV-MN-Kvc">
+                                <rect key="frame" x="0.0" y="38" width="393" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6mV-MN-Kvc" id="0nY-x4-Kr5">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FPn-sU-d6Q">
+                                            <rect key="frame" x="20" y="0.0" width="353" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="KWS-5V-HQV" kind="show" identifier="ToFurnitureDetail" id="PKA-pN-Jmo"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="abZ-GM-Oyz" id="ckL-92-Ttm"/>
+                            <outlet property="delegate" destination="abZ-GM-Oyz" id="uA5-DI-AYH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Home Furniture" id="MYF-0F-ZJR"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYz-Uz-X0z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063.2" y="120.98950524737631"/>
+        </scene>
+        <!--Furniture Detail View Controller-->
+        <scene sceneID="qZt-Ku-ljh">
+            <objects>
+                <viewController id="KWS-5V-HQV" customClass="FurnitureDetailViewController" customModule="HomeFurniture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zHm-zn-Bqa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tx4-0A-GfL">
+                                <rect key="frame" x="16" y="162" width="361" height="361"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tx4-0A-GfL" secondAttribute="height" multiplier="1:1" id="evG-sC-vxs"/>
+                                </constraints>
+                                <state key="normal" title="Choose Photo"/>
+                                <connections>
+                                    <action selector="choosePhotoButtonTapped:" destination="KWS-5V-HQV" eventType="touchUpInside" id="kLy-4h-06w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTD-rl-hGD">
+                                <rect key="frame" x="16" y="569" width="87.333333333333329" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furniture" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6a-JK-Q2G">
+                                <rect key="frame" x="15.999999999999993" y="531" width="96.333333333333314" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWt-Xy-ak2">
+                                <rect key="frame" x="0.0" y="803" width="393" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="action" id="5Ap-S1-TDJ">
+                                        <connections>
+                                            <action selector="actionButtonTapped:" destination="KWS-5V-HQV" id="Qcc-ZG-0Y9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GlD-uw-a1n"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dTD-rl-hGD" firstAttribute="top" secondItem="H6a-JK-Q2G" secondAttribute="bottom" constant="8" id="0my-DP-vOp"/>
+                            <constraint firstItem="H6a-JK-Q2G" firstAttribute="leading" secondItem="zHm-zn-Bqa" secondAttribute="leadingMargin" id="4XO-gP-Kov"/>
+                            <constraint firstItem="H6a-JK-Q2G" firstAttribute="top" secondItem="tx4-0A-GfL" secondAttribute="bottom" constant="8" id="EMQ-aC-IA2"/>
+                            <constraint firstItem="HWt-Xy-ak2" firstAttribute="leading" secondItem="GlD-uw-a1n" secondAttribute="leading" id="IFU-4R-R7b"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="H6a-JK-Q2G" secondAttribute="trailing" id="LV4-rp-euW"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="dTD-rl-hGD" secondAttribute="trailing" id="NYq-8U-f1V"/>
+                            <constraint firstItem="tx4-0A-GfL" firstAttribute="leading" secondItem="zHm-zn-Bqa" secondAttribute="leadingMargin" id="RGk-50-kxb"/>
+                            <constraint firstItem="tx4-0A-GfL" firstAttribute="trailing" secondItem="zHm-zn-Bqa" secondAttribute="trailingMargin" id="Xfu-Y9-cYZ"/>
+                            <constraint firstItem="GlD-uw-a1n" firstAttribute="trailing" secondItem="HWt-Xy-ak2" secondAttribute="trailing" id="hle-I0-mQU"/>
+                            <constraint firstItem="dTD-rl-hGD" firstAttribute="leading" secondItem="zHm-zn-Bqa" secondAttribute="leadingMargin" id="jS2-hg-oD8"/>
+                            <constraint firstAttribute="bottom" secondItem="HWt-Xy-ak2" secondAttribute="bottom" id="qSf-a1-lUt"/>
+                            <constraint firstItem="tx4-0A-GfL" firstAttribute="top" secondItem="GlD-uw-a1n" secondAttribute="top" symbolic="YES" id="xIQ-rP-NW4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="Ksu-UN-E61"/>
+                    <connections>
+                        <outlet property="choosePhotoButton" destination="tx4-0A-GfL" id="UB0-oe-KHa"/>
+                        <outlet property="furnitureDescriptionLabel" destination="dTD-rl-hGD" id="ZQy-Tr-gmw"/>
+                        <outlet property="furnitureTitleLabel" destination="H6a-JK-Q2G" id="OOg-YP-1zi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WMi-p4-e47" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1799.2" y="120.98950524737631"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nhm-ga-5Su">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wY2-SN-rkr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="DTg-UM-FA4">
+                        <rect key="frame" x="0.0" y="118" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="abZ-GM-Oyz" kind="relationship" relationship="rootViewController" id="ItI-Js-PhW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wqb-Fa-9xy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124" y="120.98950524737631"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
